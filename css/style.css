@@ -1,0 +1,64 @@
+/*
+esto es un comentario xD
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navstyle {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.navstyleIndexColor {
+
+    background-color:  white;
+
+}
+
+.elementStyle {
+    
+    flex-grow: unset;
+}
+
+.tittlePagePrincipal{
+
+    color: white;
+}
+
+.colorIndex {
+
+    background-color: white;
+}
+
+.colorNavGamers {
+    background-color: #de67a6 ;
+}
+.colorNavDiseñadores {
+    background-color: #1d2524  ;
+}
+.colorNavShome{
+    background-color:  #e4dcd6 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
