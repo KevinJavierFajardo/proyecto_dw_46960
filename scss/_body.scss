@@ -1,0 +1,393 @@
+main{
+    div{
+        div{
+            div{
+                .quienesSomos {
+
+                    text-align: center;
+                    padding-top: 20px;
+                }
+                .quienesSomosP {
+                    text-align: justify;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+    .novedadesH1{
+        padding-bottom: 10px;
+    }
+
+}
+
+main{
+    div{
+        div{
+            .colorT1Gamers {
+
+                background-color: #D9A9D1;
+                color: $colorBlanco;
+            }
+        }
+        div{
+            div{
+                div{
+                    div{
+                        .styleTableGamers thead{
+
+                            background-color: #D9A9D1;
+                        }
+                    }
+                }
+            }
+        }
+        div{
+            .styleLinksSaltos{
+                a{
+                    text-decoration: none;
+                    background-color: $colorGamers;
+                    padding: 5px;
+                    border-radius: 10px;
+                    color: $colorBlanco;
+                }
+            }
+        }
+    }
+}
+.styleImgGamers{
+
+    width: 300px;
+    height: 300px;
+}
+
+main{
+    div{
+        .colorT1Diseñadores{
+
+                background-color: #D9AD5B;
+                color: $colorBlanco;
+            
+            }
+            div{
+                div{
+                    div{
+                        table{
+                            tbody{
+                                tr{
+                                    td{
+                                        a{
+                                            text-decoration: none;
+                                            color: $colorBlanco;
+                                        }
+                                        
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            div{
+                div{
+                    div{
+                        .styleLinksSaltosDisigners{
+                            a{
+                                text-decoration: none;
+                                background-color: $colorDiseñadores;
+                                padding: 5px;
+                                border-radius: 10px;
+                                color: $colorBlanco;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+
+#gama1 {
+    background-color: $colorTabla1Gamer;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+#gama2 {
+    background-color:  $colorTabla1Gamer;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+#gama3 {
+    background-color: $colorTabla2Gamer;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+#gama4 {
+    background-color:  $colorTabla2Gamer;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+#gama5 {
+    background-color: $colorTabla3Gamer;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+#gama6 {
+    background-color: $colorTabla3Gamer;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+
+.styleTableDesigners{
+    
+    background-color: #D9AD5B;
+}
+
+#gama1D {
+    background-color: $colorTabla1Dsigner;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+#gama2D {
+    background-color: $colorTabla1Dsigner;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+#gama3D {
+    background-color: $colorTabla2Dsigner;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+#gama4D {
+    background-color: $colorTabla2Dsigner;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+#gama5D {
+    background-color: $colorTabla3Dsigner;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+#gama6D {
+    background-color: $colorTabla3Dsigner;
+    color: $colorBlanco;
+    a{
+        color: $colorBlanco;
+        text-decoration: none;
+    }
+}
+
+main {
+    div{
+        .titleContactanos {
+
+            padding-top: 75px;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+    }
+}
+
+main {
+    div{
+        .colorT1SmartHome{
+
+            background-color: #736253;
+            color: $colorBlanco;
+        }
+    }
+    div{
+        div{
+            .styleParrafoSmart{
+
+                padding-top: 25px;
+                padding-left: 75px;
+                padding-right: 75px;
+                padding-bottom: 20px;
+            
+            }
+            .styleParrafoDiv1{
+
+                text-align: justify;
+            }
+            .styleImgDiv1{
+
+                width: 300px;
+                height: 300px;
+            
+            }
+        }
+    }
+}
+
+.animacionCard{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+    span:nth-child(1){
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right, transparent, $colorAnimacionGamer);
+        animation: animate-1 2s linear infinite;
+
+        @keyframes animate-1 {
+            0%{
+                transform: translateX(-100%);
+            }
+            100%{
+                transform: translateX(100%);
+            }
+        
+        }
+    }
+    span:nth-child(2){
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to left, transparent, $colorAnimacionGamer);
+        animation: animate-2 2s linear infinite;
+        @keyframes animate-2 {
+
+            0%{
+                transform: translateX(100%);
+            }
+            100%{
+                transform: translateX(-100%);
+            }
+        
+        }
+    }
+    
+    h3{
+        padding-left: 30px;
+        color: $colorBlanco;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+    }
+    .colorSectionGamersT1{
+
+        background-color: $colorTabla1Gamer;
+    }
+    .colorSectionGamersT2{
+
+        background-color: $colorTabla2Gamer;
+    }
+    .colorSectionGamersT3{
+
+        background-color: $colorTabla3Gamer;
+    }
+  
+}
+.animacionCardDsigners{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+    span:nth-child(1){
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right, transparent, $colorDiseñadores);
+        animation: animate-1 2s linear infinite;
+
+        @keyframes animate-1 {
+            0%{
+                transform: translateX(-100%);
+            }
+            100%{
+                transform: translateX(100%);
+            }
+        
+        }
+    }
+    span:nth-child(2){
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to left, transparent, $colorDiseñadores);
+        animation: animate-2 2s linear infinite;
+        @keyframes animate-2 {
+
+            0%{
+                transform: translateX(100%);
+            }
+            100%{
+                transform: translateX(-100%);
+            }
+        
+        }
+    }
+    
+    h3{
+        padding-left: 30px;
+        color: $colorBlanco;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+    }
+    .colorSectionDsignersT1{
+
+        background-color: $colorTabla1Dsigner;
+    }
+    .colorSectionDsignersT2{
+
+        background-color: $colorTabla2Dsigner;
+    }
+    .colorSectionDsignersT3{
+
+        background-color: $colorTabla3Dsigner;
+    }
+  
+}
+
+
+
+
+

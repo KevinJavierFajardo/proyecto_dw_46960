@@ -1,0 +1,44 @@
+.backColor {
+
+    background-color: $colorFooter;
+    position: relative;
+    top: 20px;
+    
+    div{
+        div{
+            .siguenos {
+                text-align: center;
+                position: relative;
+                top: 40px;
+                color: $colorLredes;
+            }
+            .socialReds {
+
+                bottom: 4rem;
+                width: 170px;
+                display: flex;
+                justify-content: space-between;
+                
+            }
+            .socialReds a{
+
+                position: relative;
+                top: 50px;
+                width: 100px;
+                height: 100px;
+                font-size: 30px;
+                color: $colorLredes;
+            
+            }
+            div{
+                .direccLocal {
+
+                    text-align: center;
+                    padding-top: 20px;
+                    color: $colorLredes;
+                }
+            }
+        }
+
+    }
+}

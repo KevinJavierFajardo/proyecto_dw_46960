@@ -1,0 +1,46 @@
+body{
+    header{
+        .navstyleIndexColor {
+
+            background-color:  white;
+        
+        }
+        .navstyle {
+            position: fixed;
+            z-index: 100;
+            width: 100%;
+            padding-left: 2vh;
+            padding-right: 2vh;
+        }
+        div{
+            .elementStyle {
+    
+                flex-grow: unset;
+            }
+        }
+    }
+}
+
+.tittlePagePrincipal{
+
+    color:  $colorBlanco;
+}
+
+.colorIndex {
+
+    background-color: $colorBlanco;
+}
+
+.colorNavGamers {
+    background-color: $colorGamers ;
+}
+.colorNavDiseñadores {
+    background-color: $colorDiseñadores;
+}
+.colorNavShome{
+    background-color: $colorSmartHome ;
+}
+.colorNavContact{
+    
+    background-color: $colorFooter;
+}
