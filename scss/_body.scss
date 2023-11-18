@@ -16,7 +16,7 @@ main{
         }
     }
     .novedades{
-        @include animation(#ffffff, #212529, none, none, none , none,4s);
+        @include animation(#212529, #ffffff, #ffffff, #ffffff, #212529 , #212529,6s);
     }
     div{
         div{
@@ -71,6 +71,9 @@ main{
                             text-align: justify;
                         }
 
+                    }
+                    .card{
+                        margin-top: 5px;
                     }
                 }
             }
@@ -283,11 +286,13 @@ main {
 
                 text-align: justify;
             }
-            .styleImgDiv1{
+            div{
+                .styleImgDiv1{
 
-                width: 300px;
-                height: 300px;
-            
+                    width: 300px;
+                    height: 300px;
+                
+                }
             }
             div{
                 .animationH2Smart{
