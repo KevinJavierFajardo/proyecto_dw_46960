@@ -15,10 +15,37 @@ main{
             }
         }
     }
-    .novedadesH1{
-        padding-bottom: 10px;
+    .novedades{
+        @include animation(#ffffff, #212529, none, none, none , none,4s);
     }
+    div{
+        div{
+            div{
+                figure{
+                    transition: .7s;
+            
+                    .imagenesNovedades{
+                        height: 300px;
+                        position: relative;
+                        overflow: hidden;
+                        object-fit:cover;                        
+                     }
+                     figcaption{
+                        p{
+                            text-align: justify;
+                        }
+                     }
+                }
+                .imghvr-fade :hover{
+                    background-color: rgba(0, 0, 0, 0.555);
+                }
+            }
+        }   
+    }
+}
 
+.divsAnimation{
+    position: relative;
 }
 
 main{
@@ -38,6 +65,12 @@ main{
 
                             background-color: #D9A9D1;
                         }
+                    }
+                    div{
+                        .textGamers{
+                            text-align: justify;
+                        }
+
                     }
                 }
             }
@@ -86,6 +119,9 @@ main{
                                 }
                             }
                         }
+                    }
+                    .textDesigners{
+                        text-align: justify;
                     }
                 }
 
@@ -219,7 +255,7 @@ main {
             padding-bottom: 50px;
             text-align: center;
         }
-    }
+    } 
 }
 
 main {
@@ -238,7 +274,10 @@ main {
                 padding-left: 75px;
                 padding-right: 75px;
                 padding-bottom: 20px;
-            
+            p{
+                text-align: justify;
+                font-size: large;
+            }
             }
             .styleParrafoDiv1{
 
@@ -249,6 +288,20 @@ main {
                 width: 300px;
                 height: 300px;
             
+            }
+            div{
+                .animationH2Smart{
+                    @include animation( #0565d3, #157ef4, #04f3f8 ,#04f3f8 , #157ef4, #0565d3,9s);
+                }
+            }
+            button{
+                a{
+                    text-decoration: none;
+                    background-color: $colorDiseñadores;
+                    padding: 5px;
+                    border-radius: 10px;
+                    color: $colorBlanco;
+                }
             }
         }
     }
@@ -387,7 +440,19 @@ main {
   
 }
 
-
+main{
+    div{
+        .error404contenido{
+            height: 80vh;
+            div{
+                .imgError{
+                    height: 500px;
+                }
+                
+            }
+        }
+    }
+}
 
 
 

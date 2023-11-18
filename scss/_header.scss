@@ -18,6 +18,22 @@ body{
                 flex-grow: unset;
             }
         }
+        nav{
+            div{
+                .textoTekRgb{
+                    @include animation(#d71a71,#2c4acc,#37277f,#4aaaf3,#7a082d,#271655,12s);
+                }
+                .textoTekGamers{
+                    @include animation(white,white,#A65D8C,#A65D8C,white,white,8s);
+                }
+                .textoTekDesigners{
+                    @include animation(white,white,#143959,#143959,white,white,8s);
+                }
+                .textoTekSmart{
+                    @include animation(white,white,#8C8C8B,#8C8C8B,white,white,8s);
+                }
+            }
+        }
     }
 }
 

@@ -24,11 +24,24 @@
 
                 position: relative;
                 top: 50px;
-                width: 100px;
-                height: 100px;
+                width: 50px;
+                height: 30px;
+                margin-top: 10px;
+                margin-bottom: 70px;
+                margin-right: 20px;
                 font-size: 30px;
                 color: $colorLredes;
-            
+            }
+            .socialReds{
+                .instagram :hover{
+                    @include animationSocialReds(#405DE6,#5851DB,#833AB4,#C13584,#FD1D1D,#F56040,2s);
+                }     
+                .facebook :hover{
+                    @include animationSocialReds( #4267B2,#1877F2,#1877F2, #898F9C,#1877F2,#4267B2,2s);
+                    }
+                .linkedin :hover{
+                    @include animationSocialReds( #0077b5,#1877F2,#1877F2, #ffffff,#1877F2,#0077b5,2s);
+                    }             
             }
             div{
                 .direccLocal {

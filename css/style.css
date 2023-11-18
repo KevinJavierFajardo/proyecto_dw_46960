@@ -22,6 +22,78 @@ body header .navstyle {
 body header div .elementStyle {
   flex-grow: unset;
 }
+body header nav div .textoTekRgb {
+  background: linear-gradient(302deg, #d71a71, #2c4acc, #37277f, #4aaaf3, #7a082d, #271655);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 1200% 1200%;
+  animation: AnimationName 12s ease infinite;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 30%;
+  }
+  50% {
+    background-position: 100% 71%;
+  }
+  100% {
+    background-position: 0% 30%;
+  }
+}
+body header nav div .textoTekGamers {
+  background: linear-gradient(302deg, white, white, #A65D8C, #A65D8C, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 1200% 1200%;
+  animation: AnimationName 8s ease infinite;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 30%;
+  }
+  50% {
+    background-position: 100% 71%;
+  }
+  100% {
+    background-position: 0% 30%;
+  }
+}
+body header nav div .textoTekDesigners {
+  background: linear-gradient(302deg, white, white, #143959, #143959, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 1200% 1200%;
+  animation: AnimationName 8s ease infinite;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 30%;
+  }
+  50% {
+    background-position: 100% 71%;
+  }
+  100% {
+    background-position: 0% 30%;
+  }
+}
+body header nav div .textoTekSmart {
+  background: linear-gradient(302deg, white, white, #8C8C8B, #8C8C8B, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 1200% 1200%;
+  animation: AnimationName 8s ease infinite;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 30%;
+  }
+  50% {
+    background-position: 100% 71%;
+  }
+  100% {
+    background-position: 0% 30%;
+  }
+}
 
 .tittlePagePrincipal {
   color: white;
@@ -56,8 +128,42 @@ main div div div .quienesSomosP {
   padding-right: 20px;
   padding-left: 20px;
 }
-main .novedadesH1 {
-  padding-bottom: 10px;
+main .novedades {
+  background: linear-gradient(302deg, #ffffff, #212529, none, none, none, none);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 1200% 1200%;
+  animation: AnimationName 4s ease infinite;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 30%;
+  }
+  50% {
+    background-position: 100% 71%;
+  }
+  100% {
+    background-position: 0% 30%;
+  }
+}
+main div div div figure {
+  transition: 0.7s;
+}
+main div div div figure .imagenesNovedades {
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+main div div div figure figcaption p {
+  text-align: justify;
+}
+main div div div .imghvr-fade :hover {
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.divsAnimation {
+  position: relative;
 }
 
 main div div .colorT1Gamers {
@@ -66,6 +172,9 @@ main div div .colorT1Gamers {
 }
 main div div div div div .styleTableGamers thead {
   background-color: #D9A9D1;
+}
+main div div div div div .textGamers {
+  text-align: justify;
 }
 main div div .styleLinksSaltos a {
   text-decoration: none;
@@ -87,6 +196,9 @@ main div .colorT1Diseñadores {
 main div div div div table tbody tr td a {
   text-decoration: none;
   color: white;
+}
+main div div div .textDesigners {
+  text-align: justify;
 }
 main div div div div .styleLinksSaltosDisigners a {
   text-decoration: none;
@@ -224,12 +336,41 @@ main div div .styleParrafoSmart {
   padding-right: 75px;
   padding-bottom: 20px;
 }
+main div div .styleParrafoSmart p {
+  text-align: justify;
+  font-size: large;
+}
 main div div .styleParrafoDiv1 {
   text-align: justify;
 }
 main div div .styleImgDiv1 {
   width: 300px;
   height: 300px;
+}
+main div div div .animationH2Smart {
+  background: linear-gradient(302deg, #0565d3, #157ef4, #04f3f8, #04f3f8, #157ef4, #0565d3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 1200% 1200%;
+  animation: AnimationName 9s ease infinite;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 30%;
+  }
+  50% {
+    background-position: 100% 71%;
+  }
+  100% {
+    background-position: 0% 30%;
+  }
+}
+main div div button a {
+  text-decoration: none;
+  background-color: #143959;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
 }
 
 .animacionCard {
@@ -346,6 +487,13 @@ main div div .styleImgDiv1 {
   background-color: #8C4F2B;
 }
 
+main div .error404contenido {
+  height: 80vh;
+}
+main div .error404contenido div .imgError {
+  height: 500px;
+}
+
 .backColor {
   background-color: #0E1B26;
   position: relative;
@@ -366,10 +514,34 @@ main div div .styleImgDiv1 {
 .backColor div div .socialReds a {
   position: relative;
   top: 50px;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  margin-right: 20px;
   font-size: 30px;
   color: #D5E5F2;
+}
+.backColor div div .socialReds .instagram :hover {
+  background: linear-gradient(302deg, #405DE6, #5851DB, #833AB4, #C13584, #FD1D1D, #F56040);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 1200% 1200%;
+  animation: AnimationName 2s ease infinite;
+}
+.backColor div div .socialReds .facebook :hover {
+  background: linear-gradient(302deg, #4267B2, #1877F2, #1877F2, #898F9C, #1877F2, #4267B2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 1200% 1200%;
+  animation: AnimationName 2s ease infinite;
+}
+.backColor div div .socialReds .linkedin :hover {
+  background: linear-gradient(302deg, #0077b5, #1877F2, #1877F2, #ffffff, #1877F2, #0077b5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 1200% 1200%;
+  animation: AnimationName 2s ease infinite;
 }
 .backColor div div div .direccLocal {
   text-align: center;
