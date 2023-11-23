@@ -177,7 +177,15 @@ main div div div div div .textGamers {
   text-align: justify;
 }
 main div div div div .card {
-  margin-top: 5px;
+  margin-top: 15px;
+}
+main div div div div .imgdisco1 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+main div div div div .imgdisco2 {
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 main div div .styleLinksSaltos a {
   text-decoration: none;
@@ -327,6 +335,30 @@ main div .titleContactanos {
   padding-top: 75px;
   padding-bottom: 50px;
   text-align: center;
+}
+main div div div form div .btnAnimation {
+  background: linear-gradient(302deg, #0565d3, #157ef4, #04f3f8, #04f3f8, #157ef4, #0565d3);
+  background-size: 1200% 1200%;
+  animation: AnimationName 5s ease infinite;
+  border-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 30%;
+  }
+  50% {
+    background-position: 100% 71%;
+  }
+  100% {
+    background-position: 0% 30%;
+  }
+}
+main div div div form div .btnAnimation :hover {
+  border-radius: white;
 }
 
 main div .colorT1SmartHome {

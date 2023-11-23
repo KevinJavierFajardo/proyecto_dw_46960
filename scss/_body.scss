@@ -73,7 +73,15 @@ main{
 
                     }
                     .card{
-                        margin-top: 5px;
+                        margin-top: 15px;
+                    }
+                    .imgdisco1{
+                        margin-top: 30px;
+                        margin-bottom: 40px;
+                    }
+                    .imgdisco2{
+                        margin-top: 70px;
+                        margin-bottom: 50px;
                     }
                 }
             }
@@ -259,6 +267,27 @@ main {
             text-align: center;
         }
     } 
+    div{
+        div{
+            div{          
+                form{
+                    div{
+                        .btnAnimation{
+                            @include animationBotones( #0565d3, #157ef4, #04f3f8 ,#04f3f8 , #157ef4, #0565d3,5s);
+                            border-color: white;
+                            border-radius: 5px;
+                            padding: 5px;
+                            text-decoration: none;
+                            color: white;
+                        }
+                        .btnAnimation :hover{
+                            border-radius: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 main {

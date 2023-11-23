@@ -17,3 +17,13 @@
     background-size: 1200% 1200%;
     animation: AnimationName $timeAnimation ease infinite
 }
+@mixin animationBotones($color1,$color2,$color3,$color4,$color5,$color6,$timeAnimation){
+    background: linear-gradient(302deg, $color1, $color2, $color3, $color4, $color5, $color6);
+    background-size: 1200% 1200%;
+    animation: AnimationName $timeAnimation ease infinite;  
+        @keyframes AnimationName {
+        0%{background-position:0% 30%}
+        50%{background-position:100% 71%}
+        100%{background-position:0% 30%}
+        }
+}
